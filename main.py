@@ -16,12 +16,15 @@ penup()
 
 # goto(80,170)
 # dot(40,"red")
-
+pensize(5)
 draw_line([-400, -250], [-100, -250])
 draw_line([-100, -250], [-100, 300])
 draw_line([-100, 300], [-300, 300])
 draw_line([-300, 300], [-300, 250])
+pendown()
+circle(-50)
+penup()
 draw_line([-300, 150], [-300, -50])
-draw_line([-300, -50], [-350, 150])
-
+draw_line([-300, -50], [-375, -175])
+draw_line([-300, -50], [-215, -175])
 mainloop()
